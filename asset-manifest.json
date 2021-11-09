@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react_homepage/static/css/main.350cec6d.chunk.css",
-    "main.js": "/react_homepage/static/js/main.af5d3387.chunk.js",
-    "main.js.map": "/react_homepage/static/js/main.af5d3387.chunk.js.map",
-    "runtime-main.js": "/react_homepage/static/js/runtime-main.649e7e25.js",
-    "runtime-main.js.map": "/react_homepage/static/js/runtime-main.649e7e25.js.map",
-    "static/js/2.5969fb1c.chunk.js": "/react_homepage/static/js/2.5969fb1c.chunk.js",
-    "static/js/2.5969fb1c.chunk.js.map": "/react_homepage/static/js/2.5969fb1c.chunk.js.map",
-    "static/js/3.a61b9766.chunk.js": "/react_homepage/static/js/3.a61b9766.chunk.js",
-    "static/js/3.a61b9766.chunk.js.map": "/react_homepage/static/js/3.a61b9766.chunk.js.map",
-    "index.html": "/react_homepage/index.html",
-    "static/css/main.350cec6d.chunk.css.map": "/react_homepage/static/css/main.350cec6d.chunk.css.map",
-    "static/js/2.5969fb1c.chunk.js.LICENSE.txt": "/react_homepage/static/js/2.5969fb1c.chunk.js.LICENSE.txt",
-    "static/media/screen_img.ad6c0474.webp": "/react_homepage/static/media/screen_img.ad6c0474.webp"
+    "main.css": "./static/css/main.350cec6d.chunk.css",
+    "main.js": "./static/js/main.af5d3387.chunk.js",
+    "main.js.map": "./static/js/main.af5d3387.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f2b6a0ab.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f2b6a0ab.js.map",
+    "static/js/2.5969fb1c.chunk.js": "./static/js/2.5969fb1c.chunk.js",
+    "static/js/2.5969fb1c.chunk.js.map": "./static/js/2.5969fb1c.chunk.js.map",
+    "static/js/3.a61b9766.chunk.js": "./static/js/3.a61b9766.chunk.js",
+    "static/js/3.a61b9766.chunk.js.map": "./static/js/3.a61b9766.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.350cec6d.chunk.css.map": "./static/css/main.350cec6d.chunk.css.map",
+    "static/js/2.5969fb1c.chunk.js.LICENSE.txt": "./static/js/2.5969fb1c.chunk.js.LICENSE.txt",
+    "static/media/screen_img.ad6c0474.webp": "./static/media/screen_img.ad6c0474.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.649e7e25.js",
+    "static/js/runtime-main.f2b6a0ab.js",
     "static/js/2.5969fb1c.chunk.js",
     "static/css/main.350cec6d.chunk.css",
     "static/js/main.af5d3387.chunk.js"
