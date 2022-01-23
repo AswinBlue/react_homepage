@@ -1,0 +1,224 @@
+.App
+{
+    height:400vh;
+}
+
+/* for TopNav.js */
+.TopNav-root
+{
+    background-color:#303841;
+    border-bottom: 1px solid #303841;
+    transition: height 0.35s, background-color 0.35s, font-size 0.35s;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    box-sizing: border-box; /* to prevent content overflow the screen */
+    z-index: 100; /* always on top */
+}
+.TopNav
+{
+    color:#ffffff;
+    text-decoration: none; /*remove underline of hyper-link*/
+}
+
+
+.row-table
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    float: left;
+    margin: 0;
+}
+.row-table li
+{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.inner-text
+{
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    padding:0;
+}
+
+#main-logo
+{
+    font-weight: 700;
+    font-size: 27px;
+    color:#ffffff;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container
+{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    float: left;
+    margin: 0;
+    text-transform: uppercase !important;
+}
+
+.container-right
+{
+    order: 100; /* must be max value */
+}
+
+.menu-text {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color:inherit;
+}
+
+.menu-activated
+{
+    color:#00adb5;
+}
+
+.menu-default
+{
+    color:#ffffff;
+}
+
+/* for TopScreen.js */
+
+.top-screen
+{
+    position:relative;
+    background-color: black;
+    left: 0;
+    /* top: 0; */
+    height: 653px;
+    min-height: 100% !important;
+    display: flex;
+    align-items: center;
+    min-height: 100% !important;
+    /*background: none !important;*/
+    /* box-sizing: border-box; */
+    z-index: -100;
+    overflow: hidden;
+    /* overflow-y: auto; */
+    perspective: 1px;
+    
+    /* transform: translateZ(-1px);     */
+
+    /*
+    visibility: visible;
+    z-index: -100;
+    position: fixed;
+    top: 279px;
+    left: 100px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    transform: translate3d(0px, 0px, 0px);
+    height: 977px;
+    width: 1249px;
+    */
+}
+
+.top-screen-image
+{
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    background-size: cover;
+    z-index: -1;
+
+    /* transform: translate3d(0px, 0px, 0px); */
+    opacity: 0.5;
+    width:100%;
+    height:200vh;
+    /*
+    transform: translateZ(-1px);
+    */
+
+}
+
+.top-screen-text
+{
+    background: none !important;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    text-align: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateZ(0px);
+    display: flex;
+    align-items: center;
+}
+
+.top-screen-title
+{
+    font-size: 70px;
+    color:#ffffff
+}
+
+.top-screen-sub
+{
+    font-size: 22px;
+    color:#ffffff
+}
+
+/* for MainContainer.js */
+
+.content-container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.content-container-title
+{
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    
+    font-family: 'Open Sans',Arial,sans-serif;
+    margin-top: 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    font-size: 1.953em;
+}
+
+hr 
+{
+    border-color: #00adb5;
+    max-width: 50px;
+    border-width: 3px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+
+    height: 0;
+}
+
+.small
+{
+    font-size: 85%;
+}
