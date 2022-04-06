@@ -13,5 +13,6 @@ const firebaseConfig = {
 // Initialize Firebase
 export default firebase.initializeApp(firebaseConfig);
 
+export const firebaseModule = firebase;
 // prevent wasting calling 'firebase.auth()' all the time
 export const authService = firebase.auth();
